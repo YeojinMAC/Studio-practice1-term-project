@@ -10,32 +10,80 @@
 
 <body>
     <header class="header">
-        <p class="logo"><a href="#">Green Movement</a></p>
-        <ul class="main-nav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Explore</a></li>
-            <li><a href="#">Events</a></li>
-            <li><a href="#">Quizzes</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Stores</a></li>
-        </ul>
+        <div class="header-logo">
+            <a href="#">
+                <img src="images/logo.svg">
+            </a>
+        </div>
+
+        <div class="horizontal-nav">
+            <a href="#">Home</a>
+            <a href="#">Explore</a>
+            <a href="#">Events</a>
+            <a href="#">Quizzes</a>
+            <a href="#">About us</a>
+            <a href="#">Stores</a>
+        </div>
     </header>
 
     <main>
         <section class="hero">
-            <h1>The Earth is in Your Hand</h1>
+            <div class="hero-images"></div>
+            <img src="images/hero-title.svg">
+            <!-- <h1>The Earth is in Your Hand</h1> -->
             <button>Explore what we can</button>
         </section>
 
-        <section class="explore"></section>
-        <section class="events"></section>
-        <section class="quizzes"></section>
-        <section class="about"></section>
-        <section class="stores"></section>
+        <section class="events">
+            <h1>Together we can do great things</h1>
+            <div class="card">
+                <div class="content">
+                    <img src="images/event-img1.png">
+                    <img id="more" src="images/icon-arrow-more.svg">
+                    <h1 class="title">World Environment Day</h1>
+                    <p>Let’s join and help our community by picking up trash around the area.</p>
+                </div>
+                <div class="content">
+                    <img src="images/event-img2.png">
+                    <h1 class="title">World Evironment Day</h1>
+                    <p>Let’s join and help our community by picking up trash around the area.</p>
+                </div>
+                <div class="content">
+                    <img src="images/event-img3.png">
+                    <h1 class="title">World Environment Day</h1>
+                    <p>Let’s join and help our community by picking up trash around the area.</p>
+                </div>
+            </div>
+            <button>Discover more events</button>
+        </section>
 
-        <footer>
-            <section class="ft-item">
-              <ul class="ft-item-list">
+        <section class="quizzes">
+            <h1>Let's play and learn</h1>
+            <div></div>
+            <div></div>
+            <button>More quizzes</button>
+        </section>
+
+        <section class="about">
+            <h1>About Green Movement</h1>
+            <button>Who we are</button>
+        </section>
+
+        <section class="stores">
+            <h1>Find out eco friendly stores</h1>
+            <h5>Made with recycled plastic materials</h5>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <button>View more stores</button>
+        </section>
+
+        <footer class="footer">
+            <section class="footer-item">
+              <ul class="footer-item-list">
                 <li><a href="#">Contact</a></li>
                 <li><a href="#">Privacy</a></li>
                 <li><a href="#">Terms</a></li>
