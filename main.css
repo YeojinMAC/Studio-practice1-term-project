@@ -185,6 +185,7 @@ color: #4B5AF6;
 
 .hero button,
 .events button,
+.explore button,
 .quizzes button,
 .about button,
 .stores button {
@@ -273,6 +274,19 @@ background-position: 50% 10%, 0% 30%, 100% 60%, 20% 90%;
   font-size: 18px;
 }
 
+.explore-item-lists {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.explore-text {
+  padding-bottom: 36px;
+  font-size: 18px;
+  width: 270px;
+}
+
 .card {
   display: flex;
   flex-direction: row;
@@ -312,7 +326,8 @@ background-position: 50% 10%, 0% 30%, 100% 60%, 20% 90%;
   width: 580px;
 }
 
-.events, 
+.events,
+.explore, 
 .quizzes, 
 .about,
 .stores {
@@ -353,6 +368,26 @@ background-position: 50% 10%, 0% 30%, 100% 60%, 20% 90%;
   width: 186px;
   border-radius: 50%;
   padding: 60px;
+}
+
+/* .explore {
+  display: flex;
+} */
+
+.explore-content-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.explore-content img {
+  width: 580px;
+  border-radius: 0px 60px;
+}
+
+.explore-item {
+  width: 176px;
+  border-radius: 50%;
+  padding: 0px 60px 0px 60px;
 }
 
 footer {
