@@ -271,6 +271,21 @@ background-position: 50% 10%, 0% 30%, 100% 60%, 20% 90%;
   line-height: 36px;
 }
 
+.events-title {
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: left;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.events-title p{
+  /* padding: 16px; */
+  width: 264px;
+}
+
 .text {
   font-size: 18px;
 }
@@ -292,7 +307,7 @@ background-position: 50% 10%, 0% 30%, 100% 60%, 20% 90%;
 .card {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -337,6 +352,11 @@ background-position: 50% 10%, 0% 30%, 100% 60%, 20% 90%;
 .about,
 .stores {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
 }
 
 .quizzes p {
@@ -348,19 +368,22 @@ background-position: 50% 10%, 0% 30%, 100% 60%, 20% 90%;
   width: 54px;
 }
 
-
+.about {
+  display: inline;
+}
 
 .about-bg {
-  margin: 0;
-  padding: 0;
-  z-index: -1;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
+  height: 436px;
   border-radius: 40px;
   background-image: url(images/aboutus.png);
-  background-size: 90%;
+  background-position: center center;
+  background-position: 0% 0%;
+  background-size: 100%;
   background-repeat: no-repeat;
+}
+
+.about-bg p {
+  color: #ffffff;
 }
 
 .stores-item-lists {
