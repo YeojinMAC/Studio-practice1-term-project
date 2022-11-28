@@ -261,9 +261,10 @@ background-position: 50% 10%, 0% 30%, 100% 60%, 20% 90%;
 .head-title {
   font-size: 48px;
   line-height: 56px;
-  padding: 36px;
   text-align: center;
   width: 798px;
+  padding-bottom: 36px;
+  padding-top: 80px;
 }
 
 .title {
@@ -279,11 +280,19 @@ background-position: 50% 10%, 0% 30%, 100% 60%, 20% 90%;
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
+  padding: 36px 36px 16px 36px;
 }
 
-.events-title p{
+.events p{
   /* padding: 16px; */
   width: 264px;
+  /* text-align: left; */
+}
+
+.events-text {
+  padding-left: 36px;
+  padding-bottom: 60px;
+  text-align: left;
 }
 
 .text {
@@ -299,9 +308,10 @@ background-position: 50% 10%, 0% 30%, 100% 60%, 20% 90%;
 }
 
 .explore-text {
-  padding-bottom: 36px;
+  padding-bottom: 80px;
+  padding-top: 36px;
   font-size: 18px;
-  width: 270px;
+  width: 236px;
 }
 
 .card {
@@ -326,6 +336,7 @@ background-position: 50% 10%, 0% 30%, 100% 60%, 20% 90%;
   position: relative;
   border-radius: 0px;
   background: transparent;
+  padding-top: 6px;
 }
 
 .content {
@@ -399,9 +410,9 @@ background-position: 50% 10%, 0% 30%, 100% 60%, 20% 90%;
   padding: 60px;
 }
 
-/* .explore {
-  display: flex;
-} */
+.explore-list {
+  background-color: #F8F8F8;
+}
 
 .explore-content-wrap {
   display: flex;
@@ -411,7 +422,17 @@ background-position: 50% 10%, 0% 30%, 100% 60%, 20% 90%;
 .explore-content{
   display: flex;
   margin-bottom: 80px;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: center;
+}
+
+.explore-item-lists-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
 }
 
 .explore-content-text {
