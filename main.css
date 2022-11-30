@@ -207,21 +207,8 @@ align-content: center;
 }
 
 .about button {
-/* margin-bottom: 36px; */
-border: none;
-font-size: 18px;
-font-weight: 600;
-line-height: 22px;
 color: #202124;
-width: 232px;
-height: 54px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-border-radius: 40px;
 background-color: #ffffff;
-cursor: pointer;
-align-content: center;
 }
 
 .hero {
@@ -259,15 +246,39 @@ background-position: 50% 10%, 0% 30%, 100% 60%, 20% 90%;
 }
 
 .head-title {
-  font-size: 48px;
-  line-height: 56px;
+  font-size: 60px;
+  line-height: 72px;
   text-align: center;
   width: 798px;
   padding-bottom: 36px;
   padding-top: 80px;
 }
 
+#head-title-white-home {
+  font-size: 60px;
+  line-height: 72px;
+  text-align: center;
+  width: 1220px;
+  color: #ffffff;
+  padding: 16px 0px 0px 0px;
+}
+
+#head-title-white {
+  font-size: 60px;
+  line-height: 72px;
+  text-align: center;
+  width: 1220px;
+  color: #ffffff;
+  padding: 16px 0px 60px 0px;
+}
+
 .title {
+  font-size: 48px;
+  line-height: 56px;
+  padding-bottom: 36px;
+}
+
+.sub-title {
   font-size: 28px;
   line-height: 36px;
 }
@@ -279,8 +290,8 @@ background-position: 50% 10%, 0% 30%, 100% 60%, 20% 90%;
   text-align: left;
   display: flex;
   align-items: flex-start;
-  justify-content: space-around;
-  padding: 36px 36px 16px 36px;
+  justify-content: space-between;
+  padding: 24px 36px 16px 36px;
 }
 
 .events p{
@@ -293,6 +304,7 @@ background-position: 50% 10%, 0% 30%, 100% 60%, 20% 90%;
   padding-left: 36px;
   padding-bottom: 60px;
   text-align: left;
+  width: 480px;
 }
 
 .text {
@@ -339,6 +351,16 @@ background-position: 50% 10%, 0% 30%, 100% 60%, 20% 90%;
   padding-top: 6px;
 }
 
+#more-white {
+  width: 24px;
+  z-index: 1;
+  position: relative;
+  border-radius: 0px;
+  background: transparent;
+  padding-top: 6px;
+  color: #ffffff;
+}
+
 .content {
   background-color: #D2FDBA;
   width: 368px;
@@ -375,22 +397,24 @@ background-position: 50% 10%, 0% 30%, 100% 60%, 20% 90%;
 }
 
 .logo-white {
-  padding: 16px;
+  padding: 60px 0px 0px 0px;
   width: 54px;
 }
 
 .about {
-  display: inline;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .about-bg {
-  height: 436px;
   border-radius: 40px;
   background-image: url(images/aboutus.png);
   background-position: center center;
   background-position: 0% 0%;
   background-size: 100%;
   background-repeat: no-repeat;
+  margin-top: 60px;
 }
 
 .about-bg p {
@@ -412,6 +436,10 @@ background-position: 50% 10%, 0% 30%, 100% 60%, 20% 90%;
 
 .explore-list {
   background-color: #F8F8F8;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .explore-content-wrap {
@@ -461,6 +489,79 @@ background-position: 50% 10%, 0% 30%, 100% 60%, 20% 90%;
   border-radius: 50%;
   padding: 0px 60px 0px 60px;
 }
+
+.about-intro {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-logo {
+  padding: 60px;
+  width: 200px;
+}
+
+.about-text {
+  width: 700px;
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 60px;
+}
+
+.stores-content {
+  display: flex;
+  width: 1220px;
+}
+
+.stores-content1 {
+
+}
+
+.stores-content2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.stores-content1 img {
+  width: 394px;
+  border-radius: 0px 60px;
+  margin: 60px;
+}
+
+.stores-content2-text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 60px;
+}
+
+.stores-content2-text h2 {
+  font-size: 48px;
+}
+
+.stores-content2-btn {
+  display: flex;
+}
+
+#stores-button {
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 36px;
+  gap: 6px;
+  color: #000000;
+  width: 147px;
+  height: 56px;
+}
+
+.stores-btn-img {
+  width: 24px;
+}
+
 
 footer {
   margin-top: 36px;
