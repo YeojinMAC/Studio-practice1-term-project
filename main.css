@@ -351,16 +351,6 @@ background-position: 50% 10%, 0% 30%, 100% 60%, 20% 90%;
   padding-top: 6px;
 }
 
-#more-white {
-  width: 24px;
-  z-index: 1;
-  position: relative;
-  border-radius: 0px;
-  background: transparent;
-  padding-top: 6px;
-  color: #ffffff;
-}
-
 .content {
   background-color: #D2FDBA;
   width: 368px;
@@ -556,6 +546,7 @@ background-position: 50% 10%, 0% 30%, 100% 60%, 20% 90%;
   color: #000000;
   width: 147px;
   height: 56px;
+  margin: 60px 16px 0px 0px;
 }
 
 .stores-btn-img {
