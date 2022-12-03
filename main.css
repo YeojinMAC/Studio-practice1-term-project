@@ -199,16 +199,14 @@ width: 232px;
 height: 54px;
 text-align: center;
 text-decoration: none;
-display: inline-block;
 border-radius: 40px;
 background-color: #4B5AF6;
 cursor: pointer;
 align-content: center;
-}
-
-.about button {
-color: #202124;
-background-color: #ffffff;
+justify-content: center;
+display: flex;
+align-items: center;
+gap: 6px;
 }
 
 .hero {
@@ -243,6 +241,16 @@ background-image: url(images/hero-plasticbag.png), url(images/hero-bottle.png), 
 background-size: 300px, 200px, 200px, 170px;
 background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
 background-position: 50% 10%, 0% 30%, 100% 60%, 20% 90%;
+}
+
+.big-title {
+  font-size: 100px;
+  text-align: center;
+}
+
+.sub-big-title {
+  font-size: 80px;
+  text-align: left;
 }
 
 .head-title {
@@ -281,6 +289,20 @@ background-position: 50% 10%, 0% 30%, 100% 60%, 20% 90%;
 .sub-title {
   font-size: 28px;
   line-height: 36px;
+}
+
+.facts {
+  background-color: #F8F8F8;
+  padding: 120px;
+  margin: 0px 0px 120px 0px;
+}
+
+.facts-content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .events-title {
@@ -397,6 +419,11 @@ background-position: 50% 10%, 0% 30%, 100% 60%, 20% 90%;
   align-items: center;
 }
 
+#about-btn-white {
+  background-color: #ffffff;
+  color: #000000;
+}
+
 .about-bg {
   border-radius: 40px;
   background-image: url(images/aboutus.png);
@@ -421,7 +448,22 @@ background-position: 50% 10%, 0% 30%, 100% 60%, 20% 90%;
 .stores-item {
   width: 186px;
   border-radius: 50%;
+  display: flex;
   padding: 60px;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.stores-item img {
+  width: 186px;
+  border-radius: 50%;
+  padding: 60px;
+}
+
+.stores-item p {
+  font-size: 24px;
+  font-weight: 700;
 }
 
 .explore-list {
@@ -437,6 +479,19 @@ background-position: 50% 10%, 0% 30%, 100% 60%, 20% 90%;
   flex-direction: column;
 }
 
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+
+
+
 .explore-content{
   display: flex;
   margin-bottom: 80px;
@@ -444,6 +499,9 @@ background-position: 50% 10%, 0% 30%, 100% 60%, 20% 90%;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
+  /* -webkit-animation-name: fadeIn;
+  animation-name: fadeIn; */
+  animation: fadeIn 5s;
 }
 
 .explore-item-lists-group {
@@ -497,6 +555,22 @@ background-position: 50% 10%, 0% 30%, 100% 60%, 20% 90%;
   text-align: center;
   font-size: 18px;
   padding-bottom: 60px;
+}
+
+.volunteers {
+  background-color: #F8F8F8;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 60px;
+}
+
+.volunteers img {
+  width: 186px;
+  border-radius: 50%;
+  margin: 44px 44px 0px 44px;
+  padding: 0px 0px 16px 0px;
 }
 
 .stores-content {
