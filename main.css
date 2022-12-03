@@ -501,7 +501,7 @@ background-position: 50% 10%, 0% 30%, 100% 60%, 20% 90%;
   justify-content: center;
   /* -webkit-animation-name: fadeIn;
   animation-name: fadeIn; */
-  animation: fadeIn 5s;
+  /* animation: fadeIn 5s; */
 }
 
 .explore-item-lists-group {
