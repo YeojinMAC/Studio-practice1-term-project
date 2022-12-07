@@ -237,7 +237,7 @@ z-index: -1;
 bottom: 0;
 width: 100%;
 height: 100%;
-background-image: url(images/hero-plasticbag.png), url(images/hero-bottle.png), url(images/hero-can.png), url(images/hero-paper.png);
+background-image: url(images/hero-plasticbag.webp), url(images/hero-bottle.webp), url(images/hero-can.webp), url(images/hero-paper.webp);
 background-size: 300px, 200px, 200px, 170px;
 background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
 background-position: 50% 10%, 0% 30%, 100% 60%, 20% 90%;
