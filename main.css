@@ -271,8 +271,8 @@ background-position: 50% 10%, 0% 30%, 100% 60%, 20% 90%;
   padding-bottom: 36px;
   padding-top: 80px;
 
-  animation: fadeInUp;
-  animation-duration: 2s;
+  /* animation: fadeInUp;
+  animation-duration: 2s; */
 }
 
 #head-title-white-home {
