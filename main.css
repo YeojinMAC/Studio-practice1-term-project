@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Inter:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
 
 /* @font-face {
   font-family: Inter;
@@ -480,6 +480,10 @@ background-position: 50% 10%, 0% 30%, 100% 60%, 20% 90%;
 .stores-item p {
   font-size: 24px;
   font-weight: 700;
+}
+
+.sotres-subtext {
+  width: 70%;
 }
 
 .explore-list {
